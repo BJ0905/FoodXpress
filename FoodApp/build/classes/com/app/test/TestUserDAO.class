@@ -1,0 +1,26 @@
+//
+// Source code recreated from a .class file by IntelliJ IDEA
+// (powered by Fernflower decompiler)
+//
+
+package com.app.test;
+
+import com.app.dao.UserDAO;
+import com.app.dao_implementation.UserDAOImpl;
+import com.app.models.User;
+import java.io.PrintStream;
+
+public class TestUserDAO {
+    public static void main(String[] args) {
+        UserDAO userDAO = new UserDAOImpl();
+        User u = userDAO.getUser(1);
+        if (u != null) {
+            PrintStream var10000 = System.out;
+            String var10001 = u.getName();
+            var10000.println("User found: " + var10001 + " | Email: " + u.getEmail());
+        } else {
+            System.out.println("User not found!");
+        }
+
+    }
+}

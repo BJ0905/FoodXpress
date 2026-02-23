@@ -714,22 +714,3 @@ The following enhancements focus on **scalability, security, user experience, an
 🎓 **Role:** Java Full Stack Developer  
 📱 **Mobile:** +91-8217483820  
 📧 **Email:** pattupammu123@gmail.com  
-
-### 🌐 Connect With Me
-
-<p align="left">
-  <a href="https://github.com/pratikp3280" target="_blank">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
-  </a>
-  
-  <a href="https://www.linkedin.com/in/pratik-p-patil-1485aa1bb/" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
-  </a>
-  
-  <a href="mailto:pattupammu123@gmail.com">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
-  </a>
-</p>
-
----
-⭐ *If you found this project useful, feel free to star the repository and connect with me!* 🚀

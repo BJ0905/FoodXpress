@@ -1,0 +1,102 @@
+//
+// Source code recreated from a .class file by IntelliJ IDEA
+// (powered by Fernflower decompiler)
+//
+
+package com.app.models;
+
+import java.util.Date;
+
+public class Address {
+    private int addressId;
+    private int userId;
+    private String street;
+    private String city;
+    private String state;
+    private String zip;
+    private String landmark;
+    private Date createdAt;
+
+    public Address() {
+    }
+
+    public Address(int addressId, int userId, String street, String city, String state, String zip, String landmark, Date createdAt) {
+        this.addressId = addressId;
+        this.userId = userId;
+        this.street = street;
+        this.city = city;
+        this.state = state;
+        this.zip = zip;
+        this.landmark = landmark;
+        this.createdAt = createdAt;
+    }
+
+    public int getAddressId() {
+        return this.addressId;
+    }
+
+    public void setAddressId(int addressId) {
+        this.addressId = addressId;
+    }
+
+    public int getUserId() {
+        return this.userId;
+    }
+
+    public void setUserId(int userId) {
+        this.userId = userId;
+    }
+
+    public String getStreet() {
+        return this.street;
+    }
+
+    public void setStreet(String street) {
+        this.street = street;
+    }
+
+    public String getCity() {
+        return this.city;
+    }
+
+    public void setCity(String city) {
+        this.city = city;
+    }
+
+    public String getState() {
+        return this.state;
+    }
+
+    public void setState(String state) {
+        this.state = state;
+    }
+
+    public String getZip() {
+        return this.zip;
+    }
+
+    public void setZip(String zip) {
+        this.zip = zip;
+    }
+
+    public String getLandmark() {
+        return this.landmark;
+    }
+
+    public void setLandmark(String landmark) {
+        this.landmark = landmark;
+    }
+
+    public Date getCreatedAt() {
+        return this.createdAt;
+    }
+
+    public void setCreatedAt(Date createdAt) {
+        this.createdAt = createdAt;
+    }
+
+    public String toString() {
+        int var10000 = this.addressId;
+        return "Address [addressId=" + var10000 + ", userId=" + this.userId + ", street=" + this.street + ", city=" + this.city + ", state=" + this.state + ", zip=" + this.zip + ", landmark=" + this.landmark + ", createdAt=" + String.valueOf(this.createdAt) + "]";
+    }
+}

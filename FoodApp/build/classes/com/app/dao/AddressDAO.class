@@ -1,0 +1,21 @@
+//
+// Source code recreated from a .class file by IntelliJ IDEA
+// (powered by Fernflower decompiler)
+//
+
+package com.app.dao;
+
+import com.app.models.Address;
+import java.util.List;
+
+public interface AddressDAO {
+    void addAddress(Address var1);
+
+    Address getAddressById(int var1);
+
+    List<Address> getAddressesByUserId(int var1);
+
+    void updateAddress(Address var1);
+
+    void deleteAddress(int var1);
+}
